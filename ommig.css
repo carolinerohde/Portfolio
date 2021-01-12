@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+}
+
+header {
+    font-size: 2vw;
+    text-decoration: none;
+    top: 1px;
+    margin:1rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Racing Sans One', cursive;
+    display: inline-block;
+}
+a:hover{
+    color: #C6A4A4;
+}
+
+header a {
+    font-size: 4vw;
+}
+
+#logo {
+    font-size: 10vw;
+}
+
+
+img.migbillede {
+    width: 500px;
+    height: 500px;
+
+}
+
+p{
+    color: white;
+    margin: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button#myBtn {
+    color: white;
+    background-color: #C6A4A4;
+    margin: 1rem;
+}
+
+@media(min-width:1000px){
+    .migbillede{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+
+
+
+
